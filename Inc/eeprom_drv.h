@@ -1,6 +1,6 @@
 
 /*
- * eep_drv.h
+ * eeprom_drv.h
  * fyras1
  *
  */
@@ -8,8 +8,8 @@
 #ifndef EEPROM_EMUL_EEP_DRV_H_
 #define EEPROM_EMUL_EEP_DRV_H_
 
-#include "eep_mcu_itf.h"
-#include "eep_drv_cfg.h"
+#include "eeprom_mcu_itf.h"
+#include "eeprom_drv_cfg.h"
 
 #define NB_EEPROM_PAGES               ( 2U )
 #define PAGE_0                        ( 0U )     /*DO NOT change page ID*/

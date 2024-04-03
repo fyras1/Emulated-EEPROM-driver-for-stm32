@@ -1,8 +1,8 @@
 /*
  * chnage HAL APIs with the equivalent of your project
  */
-#include "eep_mcu_itf.h"
-#include "eep_drv.h"
+#include "eeprom_mcu_itf.h"
+#include "eeprom_drv.h"
 
 #if IS_FREERTOS_USED
 #include "FreeRTOS.h"
